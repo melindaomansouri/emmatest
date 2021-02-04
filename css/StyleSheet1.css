@@ -1,6 +1,6 @@
 ﻿body {
   color: yellow;
-  font-family: Times New Roman;
+  font-family: Script MT;
   font-size: 130%;
   font-style: normal;
   text-align: center;
@@ -10,6 +10,8 @@
 img { 
 border-radius: 8px;
 align-content: left;
+top:100px;
+
 }
 #middle{
 	align-content:center;
@@ -18,11 +20,55 @@ span {
 	color: yellow;
 	font-family: Script MT;
 	font-size: 100%;
+	position: absolute;
+	top: 8px;
+	right:160;
+
 }
-h2 {
-font-size: 250%;
-color: #FDCE2A ;
+h1 {
+position:relative;
+left:160;
 }
 p {
 	font-size:100%;
+}
+#pic{
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 }
