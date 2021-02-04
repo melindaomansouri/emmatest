@@ -1,0 +1,26 @@
+﻿body {
+  color: black;
+  font-family: Times New Roman;
+  font-size: 130%;
+  font-style: normal;
+  text-align: center;
+  margin: 100px
+}
+img { 
+border-radius: 8px;
+align-content: left;
+}
+#middle{
+	align-content:center;
+}
+span {
+	font-family: impact;
+	font-size: 100%;
+}
+h2 {
+font-size: 250%;
+color: #FDCE2A ;
+}
+p {
+	font-size:100%;
+}
